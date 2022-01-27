@@ -45,6 +45,8 @@ const STATUS = {
   stop: "Idle"
 };
 
+const publicPath = process.env.baseUrl;
+
 export default Vue.extend({
   name: "OfficeSyndrome",
   computed: {
@@ -64,6 +66,7 @@ export default Vue.extend({
     }
   },
   data: () => ({
+    publicPath: process.env.BASE_URL,
     totalRestingSeconds: 5*60,
     totalWorkingSeconds: 45*60,
     totalSeconds: 10,
@@ -72,10 +75,10 @@ export default Vue.extend({
     status: STATUS.stop,
     overtime: false,
     audio: {
-      start_working: new Audio("/audio/start_working.mp3"),
-      working_timeout: new Audio("/audio/working_timeout.mp3"),
-      start_resting: new Audio("/audio/start_resting.mp3"),
-      resting_timeout: new Audio("/audio/resting_timeout.mp3")
+      start_working: new Audio(`${publicPath}/audio/start_working.mp3`),
+      working_timeout: new Audio(`${publicPath}/audio/working_timeout.mp3`),
+      start_resting: new Audio(`${publicPath}/audio/start_resting.mp3`),
+      resting_timeout: new Audio(`${publicPath}/audio/resting_timeout.mp3`)
     }
   }),
   methods: {
