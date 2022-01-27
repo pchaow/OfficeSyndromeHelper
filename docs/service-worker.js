@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/OfficeSyndromeHelper/precache-manifest.f40355e0e8c2a828e4ee5e7489cb0a68.js"
+  "/OfficeSyndromeHelper/precache-manifest.243143e7bfae99c82472f439a1ed31e7.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "officesyndrome"});

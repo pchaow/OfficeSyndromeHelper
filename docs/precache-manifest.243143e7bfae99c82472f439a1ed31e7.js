@@ -20,12 +20,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/OfficeSyndromeHelper/css/chunk-vendors.085711c5.css"
   },
   {
-    "revision": "5c2c62d4c1a815b23a6fd1c8e4b2cdf6",
+    "revision": "c5f96ba8da6381be237d751e00188eb8",
     "url": "/OfficeSyndromeHelper/index.html"
   },
   {
-    "revision": "3d658947c9710e57627b",
-    "url": "/OfficeSyndromeHelper/js/app.bab6b0e9.js"
+    "revision": "aa438c4df5350b2af664",
+    "url": "/OfficeSyndromeHelper/js/app.ff28a2fb.js"
   },
   {
     "revision": "658f64011f94015afcab",

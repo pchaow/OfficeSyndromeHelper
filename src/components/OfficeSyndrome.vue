@@ -45,7 +45,7 @@ const STATUS = {
   stop: "Idle"
 };
 
-const publicPath = "OfficeSyndromeHelper";
+const publicPath = "/OfficeSyndromeHelper";
 
 export default Vue.extend({
   name: "OfficeSyndrome",
